@@ -1,6 +1,6 @@
 
 
-const links = document.querySelectorAll("person");
+const links = document.querySelectorAll(".person");
 links.forEach(element => {
 
     element.addEventListener('click', actionScoring)
