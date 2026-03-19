@@ -10,7 +10,7 @@ function actionScoring (event) {
     window.location.href = `räkna.html?id=${event.currentTarget.id}`;
 }
 
-document.querySelectorAll(".person-btn").forEach((btn) => {
+document.querySelectorAll(".person").forEach((btn) => {
   btn.addEventListener("click", () => {
     const person = btn.innerText;
     localStorage.setItem("selectedPerson", person);
