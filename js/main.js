@@ -9,3 +9,11 @@ links.forEach(element => {
 function actionScoring (event) {
     window.location.href = `räkna.html?id=${event.currentTarget.id}`;
 }
+
+document.querySelectorAll(".person-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const person = btn.innerText;
+    localStorage.setItem("selectedPerson", person);
+    window.location.href = "bajs.html";
+  });
+});

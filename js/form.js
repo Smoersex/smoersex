@@ -1,4 +1,6 @@
 const params = new URLSearchParams(window.location.search);
+const name = localStorage.getItem("selectedPerson");
+document.getElementById("personName").innerText = name;
 const id = parseInt(params.get("id"));
 const action = params.get("action");
 console.log(id);
