@@ -14,6 +14,6 @@ document.querySelectorAll(".person-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
     const person = btn.innerText;
     localStorage.setItem("selectedPerson", person);
-    window.location.href = "bajs.html";
+    window.location.href = "form.html";
   });
 });

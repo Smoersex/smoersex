@@ -17,6 +17,7 @@ body {
     height: 100px;
     border: solid black 2px;
     background: url(img/smorsex.png);
+    cursor: pointer;
 }
 
 .medlemmar a{
