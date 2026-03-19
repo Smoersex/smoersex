@@ -14,6 +14,6 @@ document.querySelectorAll(".person").forEach((btn) => {
   btn.addEventListener("click", () => {
     const person = btn.innerText;
     localStorage.setItem("selectedPerson", person);
-    window.location.href = "form.html";
+    window.location.href = "räkna.html";
   });
 });
